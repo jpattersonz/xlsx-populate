@@ -34,7 +34,7 @@ describe("XmlParser", () => {
                     expect(node).toEqualJson({
                         name: 'root',
                         attributes: {
-                            foo: 1,
+                            foo: "1",
                             bar: "something"
                         },
                         children: [
